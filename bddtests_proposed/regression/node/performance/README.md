@@ -3,11 +3,13 @@
 
 ### Daily Performance Tests:
  
-Stress test: example02 chaincode, node, gRPC
+Stress tests: example02 chaincode, node, gRPC
+
 1. send invokes to all 4 peers for 3 min, each thread sends invokes to each of the 4 peer
 2. send queries to all 4 peers for 3 min, each thread sends queries to each of the 4 peer
 
-Concurrency test: auction chaincode, node, gRPC
+Concurrency tests: auction chaincode, node, gRPC
+
 1. send 4000 concurrnt invokes with 1kb-2kb random payload, each thread sends 1000 invokes to each of the 4 peer
 2. send 4000 concurrnt queries, each thread sends 1000 queries to each of the 4 peer
 
