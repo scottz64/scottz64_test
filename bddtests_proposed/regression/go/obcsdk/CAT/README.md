@@ -1,11 +1,9 @@
-
-## Consensus Acceptance Testcases (CAT)
-
-GO SDK tests were executed on local fabric in vagrant environment with docker containers.
+# Consensus Acceptance Testcases (CAT)
+GO SDK tests can be executed on local fabric in vagrant environment with docker containers.
 Additional details (the date the tests were run, commit image, test config parameters, the test steps,
 output summary and details, etc.) are available in the GO_TEST files in this folder.
 
-### CAT test naming convention 
+## CAT test naming convention 
 
 The testnames themselves indicate the steps performed. For example:
 

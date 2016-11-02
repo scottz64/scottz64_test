@@ -1,6 +1,8 @@
 # obcsdk
 obcsdk: Opensource BlockChain GO software development kit: (OBCSDK) tests, scripts, and supporting framework for testing hyperledger/fabric
 
+# SETUP
+
 ##Obtain the GoSDK and test programs:
 Clone to the src directory where GO is installed (use either $GOROOT/src or $GOPATH/src).
 
@@ -13,6 +15,8 @@ Bash scripts local_fabric_gerrit.sh and others will create docker containers to 
 For more information on setting up a peer network, 
 [read these instructions] (https://github.com/rameshthoomu/fabric1/blob/tools/localpeersetup/local_Readme.md)
  
+# USAGE
+
 ##How to execute the programs:
 - If you wish to connect to an existing network, change the credentials in NetworkCredentials.json as needed.
 - Helpful shell scripts are located in the obcsdk/automation directory:
@@ -55,7 +59,7 @@ For more information on setting up a peer network,
 	$ ./local_fabric_gerrit.sh -c 821a3c7 -n 4 -f 1 -l error -m pbft -b 500 -s
 	$ export COMMIT=821a3c7; export REPOSITORY_SOURCE=GERRIT; go_record.sh ../CAT/testtemplate.go ../chcotest/BasicFuncNewNetwork.go
 ```
-###Running tests on Z network requires some tweaking to make things run.
+###Running tests on remote network requires some tweaking to make things run.
 - Put the IP address info of the peers into the util/NetworkCredentials.json;
 use script update_z.py to help generate that file for BlueMix networks.
 - Set environment variable TEST_NET_COMM_PROTOCOL to use HTTPS instead of default HTTP;
