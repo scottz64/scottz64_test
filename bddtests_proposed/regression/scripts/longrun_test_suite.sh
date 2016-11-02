@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# These are the tests in the LongRun Test Suite
+# To run these tests, user may clone the fabric, make code changes if desired, build images, and
+# run any of these scripts - each of which may take between 12 hours and 3 days to complete.
+
 #   GO SDK - Consensus CRT*, LargeNetwks                 (uses REST) scott
 #   GO SDK - Ledger Long LST*                            (uses REST) scott/nishi
 #   GO SDK - Concurrency/Ledger Long LST*                (uses REST) scott/nishi
