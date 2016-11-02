@@ -1,9 +1,9 @@
-# obcsdk
+## obcsdk
 obcsdk: Opensource BlockChain GO software development kit: (OBCSDK) tests, scripts, and supporting framework for testing hyperledger/fabric
 
-# SETUP
+## SETUP
 
-##Obtain the GoSDK and test programs:
+###Obtain the GoSDK and test programs:
 Clone to the src directory where GO is installed (use either $GOROOT/src or $GOPATH/src).
 
 	$ cd $GOPATH/src
@@ -15,9 +15,9 @@ Bash scripts local_fabric_gerrit.sh and others will create docker containers to 
 For more information on setting up a peer network, 
 [read these instructions] (https://github.com/rameshthoomu/fabric1/blob/tools/localpeersetup/local_Readme.md)
  
-# USAGE
+## USAGE
 
-##How to execute the programs:
+###How to execute the programs:
 - If you wish to connect to an existing network, change the credentials in NetworkCredentials.json as needed.
 - Helpful shell scripts are located in the obcsdk/automation directory:
 ```

@@ -1,13 +1,15 @@
-# Performance test engine, scripts, and supporting files
+## Performance test engine, scripts, and supporting files
 Overview.
 
-# SETUP
+## SETUP
 
-# USAGE
+## USAGE 
 
-# Examples
 
-### Daily Performance Tests:
+### Examples
+ 
+
+### Examples - Daily Performance Tests:
  
 Stress tests: example02 chaincode, node, gRPC
 
@@ -19,8 +21,7 @@ Concurrency tests: auction chaincode, node, gRPC
 1. send 4000 concurrnt invokes with 1kb-2kb random payload, each thread sends 1000 invokes to each of the 4 peer
 2. send 4000 concurrnt queries, each thread sends 1000 queries to each of the 4 peer
 
- 
-### Long Run Performance Tests:
+### Examples - Long Run Performance Tests:
 
 1. send 1 invoke with 1kb-2kb random payload per second use auction chaincode for 72 hours
 2. still to add another test: mix (invoke followed by query)...

@@ -1,9 +1,9 @@
-# Consensus Acceptance Testcases (CAT)
+## Consensus Acceptance Testcases (CAT)
 GO SDK tests can be executed on local fabric in vagrant environment with docker containers.
 Additional details (the date the tests were run, commit image, test config parameters, the test steps,
 output summary and details, etc.) are available in the GO_TEST files in this folder.
 
-## CAT test naming convention 
+### CAT test naming convention 
 
 The testnames themselves indicate the steps performed. For example:
 
@@ -13,7 +13,7 @@ The testnames themselves indicate the steps performed. For example:
 	               _R1		Restart VP1
 	                  _IQ		Send some Invoke requests to all running peers, and Query all to validate A/B/ChainHeight results
 
-## Test Coverage
+### Test Coverage
 
 The objective of Consensus Acceptance Tests (CAT) is to ensure the stability and resiliency of the
 PBFT Batch design when Byzantine faults occur in a 4 peer network.
@@ -41,10 +41,12 @@ Restarting 2 or 3 peers should cause the network to resume consensus.
 Deploys should be processed, or queued if appropriate, with any number of running peers.
 
 
-## RESULTS SUMMARY
-
+### RESULTS SUMMARY
+```
 	Date       Testcases     Pass/Fail   Release   Commit       Time       Notable Parameters
+```
 	 
+```
 	Consensus - Failed Testcases		Opened Bugs	Description
 	 
 	CAT_111_SnIQRnIQ_cycleDownLoop.go	FAB-337		dup Tx 
@@ -59,4 +61,5 @@ Deploys should be processed, or queued if appropriate, with any number of runnin
 	CRT_502_StopAndRestart1or2_10Hrs.go	FAB-331		acked Tx lost after stop/restart peers many times
 	 
 	CAT_201_S2S1_IQDIQ.go (using Pauses)	FAB-336		no http response from vp0, while peers vp1,vp2 docker paused
-	 
+```
+
