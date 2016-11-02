@@ -1,5 +1,5 @@
 # obcsdk
-obcsdk: Opensource BlockChain GO software development kit: (OBCSDK) tests, scripts, and supporting framework for testing hyperledger/fabric
+obcsdk: opensource blockchain software development kit: GO code and test framework for testing hyperledger/fabric Blockchain
 
 ##Obtain the GoSDK and test programs:
 Clone to the src directory where GO is installed (use either $GOROOT/src or $GOPATH/src).
